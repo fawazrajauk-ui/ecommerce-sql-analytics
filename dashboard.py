@@ -1,4 +1,15 @@
 import streamlit as st
+from pathlib import Path
+import subprocess
+import sys
+
+if not Path("ecommerce.duckdb").exists():
+    with st.spinner("Preparing retail analytics database..."):
+        subprocess.run(
+            [sys.executable, "setup_database.py"],
+            check=True
+        )
+
 import duckdb
 import pandas as pd
 import plotly.express as px
