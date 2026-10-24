@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+data/
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp/
