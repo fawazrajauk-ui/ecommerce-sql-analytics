@@ -1,5 +1,8 @@
 # E-Commerce SQL & Customer Analytics
 
+**[Launch the Interactive Dashboard](https://ecommerce-sql-analytics.streamlit.app/)**
+
+
 An end-to-end e-commerce analytics project using **SQL, Python, DuckDB, pandas, Plotly and Streamlit**.
 
 This project transforms raw retail transactions into an interactive business intelligence dashboard covering sales performance, product rankings, customer segmentation and cohort retention.
