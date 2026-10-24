@@ -4,6 +4,10 @@ An end-to-end e-commerce analytics project using **SQL, Python, DuckDB, pandas, 
 
 This project transforms raw retail transactions into an interactive business intelligence dashboard covering sales performance, product rankings, customer segmentation and cohort retention.
 
+## Dashboard Preview
+
+![Interactive E-Commerce Analytics Dashboard](figures/dashboard-preview.png)
+
 ## Dashboard
 
 Run the interactive Streamlit dashboard locally to explore:
